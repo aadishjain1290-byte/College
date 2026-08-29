@@ -18,19 +18,19 @@ int main()
 	scanf("%d", &num2);
 
 	if (choice == 1){
-		printf("Addition of %d and %d is: %d", num1, num2, num1+num2);
+		printf("Addition of %d and %d is: %d \n", num1, num2, num1+num2);
 	}
 	else if (choice == 2){
-		printf("Subtraction of %d and %d is: %d", num1, num2, num1-num2);
+		printf("Subtraction of %d and %d is: %d \n", num1, num2, num1-num2);
 	}
 	else if (choice == 3){
-		printf("Multiplication of %d and %d is: %d", num1, num2, num1*num2);
+		printf("Multiplication of %d and %d is: %d \n", num1, num2, num1*num2);
 	}
 	else if (choice == 4){
-		printf("Division of %d and %d is: %d", num1, num2, num1/num2);
+		printf("Division of %f and %d is: %f \n", (float)num1, num2, (float)num1/num2);
 	}
 	else {
-	printf("Choose a valid operation");
+	printf("Choose a valid operation" \n);
 	}
 	return 0;
 }
