@@ -27,7 +27,7 @@ int main()
 		printf("Multiplication of %d and %d is: %d \n", num1, num2, num1*num2);
 	}
 	else if (choice == 4){
-		printf("Division of %f and %d is: %f \n", (float)num1, num2, (float)num1/num2);
+		printf("Division of %.0f and %d is: %.2f \n", (float)num1, num2, (float)num1/num2);
 	}
 	else {
 	printf("Choose a valid operation" \n);
